@@ -20,10 +20,10 @@ ul{
     display: flex;
     justify-content: space-between;
     color: #fff;
+    padding-top: 42px;
 }
 .logo{
     text-transform: uppercase;
-    margin-top: 42px;
      
 }
 .header_list{
@@ -31,7 +31,6 @@ ul{
 }
 .list_li{
     list-style: none;
-    margin-top: 42px;
 }
 .li_text{
     color: #fff;
