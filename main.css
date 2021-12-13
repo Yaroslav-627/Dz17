@@ -8,9 +8,12 @@ ul{
     padding: 0;
     margin: 0;
 }
-.main{
-    background-image: url("main_img.png");
-    height: 700px;
+p{
+    margin: 0;
+}
+.preview{
+    background: url("main_img.png") no-repeat;
+    height: 702px;
 }
 .container{
     width: 940px;
@@ -24,7 +27,8 @@ ul{
 }
 .logo{
     text-transform: uppercase;
-     
+    font-family: Montserrat;
+    font-size: 20px;
 }
 .header_list{
     display: flex;
@@ -53,6 +57,7 @@ ul{
     text-align: center;
     margin: 0 auto;
     width: 508px;
+    margin-top: 125px;
 }
 .title{
     color: #fff;
@@ -62,7 +67,6 @@ ul{
     line-height: 63px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
-    margin-top: 125px;
 }
 .little_title{   
     font-family: Roboto;
@@ -81,8 +85,10 @@ ul{
     margin-top: 33px;
     color: #fff;
 }
+.partners{
+    padding-top: 69px;
+}
 .title_partner{
-    margin-top: 303px;
     font-family: Montserrat;
     font-size: 22px;
     text-align: center;
@@ -91,49 +97,42 @@ ul{
     display: flex;
 }
 .partner_people{
-    padding-top: 31px;
     padding-right: 22px;
+    text-align: center;
 }
 .partner_people:last-child{
-    margin-right: 0px;
-}
-.img_people{
-    display: flex;
-    margin: 0 auto;
+    padding-right: 0px;
 }
 .partner_img{
     position: relative;
+    display: inline-flex;
+    width: 120px;
+    height: 120px;
 }
 .icon{
     position: absolute;
     border: 4px solid #fff;
     padding: 6.8px 10.5px;
     border-radius: 25px;
+    bottom: 1px;
+    right: 0px;
 }
 .icon_tv{
-    bottom: 1px;
-    right: 30px;
     background: #FF4E50;
 }
 .icon_cup{
-    padding:7.8px 10.5px;
-    bottom: 1px;
-    right: 40px;
     background: #1CD7AD;
 }
 .icon_chemistry{
-    bottom: 1px;
-    right: 60px;
     background: #FFA507;
 }
 .icon_tg{
-    bottom: 1px;
-    right: 30px;
     background: #4E73DB;
-    padding: 6.8px 8.5px;
 }
 .people_name{
     text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
 }
 .people_text{
     text-align: center;
@@ -172,37 +171,10 @@ ul{
         justify-content: center;
     }
     .partner_people{
-        min-width: 213px;
-    }
-    .icon_tv{
-        bottom: 1px;
-        right: 70px;
-        background: #FF4E50;
-    }
-    .icon_cup{
-        bottom: 1px;
-        right: 70px;
-        background: #1CD7AD;
-    }
-    .icon_chemistry{
-        bottom: 1px;
-        right: 70px;
-        background: #FFA507;
-    }
-    .icon_tg{
-        bottom: 1px;
-        right: 70px;
-        background: #4E73DB;
-        padding: 6.8px 8.5px;
-    }
-    .people_padding{
-        padding-top: 51px;
+        padding-right: 0;
     }
     .people_text{
         width: 265px;
-    }
-    .people_padding_left{
-        padding-left: 53px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -225,6 +197,7 @@ ul{
     }
     .main_title{
         width: 306px;
+        margin-top: 0;
     }
     .button{
         min-width: 282px;
