@@ -13,11 +13,13 @@ p{
 }
 .preview{
     background: url("main_img.png") no-repeat;
+    background-size: cover;
     height: 702px;
 }
 .container{
     width: 940px;
     margin: 0 auto;
+    max-width: 100%;
 }
 .header{
     display: flex;
@@ -99,6 +101,7 @@ p{
 .partner_people{
     padding-right: 22px;
     text-align: center;
+    padding-top: 31px;
 }
 .partner_people:last-child{
     padding-right: 0px;
